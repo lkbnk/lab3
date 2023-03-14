@@ -1,9 +1,9 @@
 from random import randint
 
-error = 1
+error = 0
 correct = 0
 
-while error <= 3:
+while error < 3:
     a = randint(0, 1000)
     b = randint(0, 1000)
     result = a + b
