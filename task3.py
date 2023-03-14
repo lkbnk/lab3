@@ -1,11 +1,11 @@
-from random import randint
+import random
 
 error = 0
 correct = 0
 
 while error < 3:
-    a = randint(0, 1000)
-    b = randint(0, 1000)
+    a = random.randint(0, 100)
+    b = random.randint(0, 100)
     result = a + b
     answer = input('Сколько будет ' + str(a) + ' + ' + str(b) + ': ')
 
